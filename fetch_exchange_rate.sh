@@ -22,5 +22,5 @@ while true; do
     fi
     
     # Wait 20 minutes
-    sleep 1200
+    sleep 30
 done

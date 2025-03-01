@@ -1,9 +1,5 @@
-import tkinter as tk
-from tkinter import ttk
 import pandas as pd
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from matplotlib.figure import Figure
 import datetime
 
 class ExchangeRateViewer(tk.Tk):
