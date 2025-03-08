@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create CSV file with header if it doesn't exist
-CSV_FILE="usd_nzd_rates.csv"
+CSV_FILE="data/usd_nzd_rates.csv"
 if [ ! -f "$CSV_FILE" ]; then
     echo "timestamp,rate" > "$CSV_FILE"
 fi

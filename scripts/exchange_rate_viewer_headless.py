@@ -5,7 +5,7 @@ import datetime
 def create_plot():
     try:
         # Read the CSV file
-        df = pd.read_csv('usd_nzd_rates.csv')
+        df = pd.read_csv('data/usd_nzd_rates.csv')
         if df.empty:
             print("No data available yet")
             return
@@ -28,7 +28,7 @@ def create_plot():
         plt.tight_layout()
         
         # Save the plot
-        plt.savefig('exchange_rate_plot.png')
+        plt.savefig('images/exchange_rate_plot.png')
         plt.close()
         
         # Print statistics
